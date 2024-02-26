@@ -1,0 +1,71 @@
+
+
+.login-container {
+  width: 300px;
+  background-color: #ffffff00;
+  color: aliceblue;
+  text-align: center;
+  padding: 30px;
+  margin-top: 3%;
+  border: 2px solid #fcf9f94f;
+  border-radius: 10px;
+
+}
+
+#bgimg {
+  height: 100vh;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  /* background-image: url(https://wallpaperaccess.com/full/127026.jpg); */
+  background-image: url("../gif/wall1.gif");
+
+}
+
+.linput-group {
+  margin-bottom: 15px;
+  color: aliceblue;
+}
+
+.loginlabel {
+  display: block;
+  color: aliceblue;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 16px;
+  text-align: left;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.lbutton {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #00b342;
+  /* color: white; */
+  border: none;
+  cursor: pointer;
+}
+
+.lbutton:hover {
+  background-color: #007f29;
+}
+
+.ad-h {
+  font-weight: bolder;
+  font-size: 24px;
+  color: aliceblue;
+  
+}
+

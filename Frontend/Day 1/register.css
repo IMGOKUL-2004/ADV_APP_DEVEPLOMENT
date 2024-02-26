@@ -1,0 +1,65 @@
+.register-container {
+  width: 300px;
+  background-color: #ffffff00;
+  color: aliceblue;
+  text-align: center;
+  padding: 30px;
+  margin-top: 3%;
+  border: 2px solid #fcf9f94f;
+  border-radius: 10px;
+}
+
+
+.rinput-group {
+    margin-bottom: 10px;
+}
+
+.rinput-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rinput-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#bgimgr {
+    background-image: url("backimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%
+}
+
+.rbutton {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #00b342;
+    /* color: white; */
+    border: none;
+    cursor: pointer;
+}
+
+.rbutton:hover {
+    background-color: #218838;
+}
+
+#rb {
+
+    background-color: transparent;
+  
+}
+
+#rh {
+    margin-left: 70px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 61px;
+    color: aliceblue;
+}
+
+

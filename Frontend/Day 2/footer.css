@@ -1,0 +1,61 @@
+/* footer.css */
+
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+  }
+  
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .footer-content {
+	display: flex;
+	flex-wrap: wrap; /* Allow content to wrap onto multiple lines */
+	justify-content: space-between;
+	width: 100%;
+  }
+  
+  .footer-section {
+	flex: 0 0 25%; /* Set a minimum width for each section */
+	padding: 10px 20px;
+  }
+  
+  .footer-section h3 {
+	margin-bottom: 10px;
+	font-size: 18px;
+  }
+  
+  .footer-section p {
+	line-height: 1.5; /* Improve readability */
+  }
+  
+  .social-media {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .social-link {
+	color: #fff;
+	margin-right: 10px;
+	font-size: 18px;
+	transition: color 0.3s ease-in-out;
+  }
+  
+  .social-link:hover {
+	color: #f90; /* Change social link color on hover */
+  }
+  
+  .copyright {
+	width: 100%; /* Ensure copyright text stretches across the footer */
+	text-align: center;
+	font-size: 14px;
+  }
+  

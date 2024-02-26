@@ -1,0 +1,82 @@
+/* home.css */
+
+.home {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    min-height: 100vh; /* Ensure the content spans the entire viewport height */
+    font-family: Arial, sans-serif; /* Base font family */
+  }
+  
+  .navbar {
+    background-color: #333; /* Background color for the navbar */
+    color: #fff; /* Text color for the navbar */
+    padding: 10px 0; /* Add padding to the navbar */
+  }
+  
+  .footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px 0; /* Add padding to the footer */
+  }
+  
+  .content {
+    flex: 1; /* Allow content to expand and fill available space */
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap; /* Wrap content to multiple lines on smaller screens */
+    width: 80%; /* Adjust width as desired */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  #h-custom {
+    flex: 1 1 auto; /* Equal width with other content, adjust as needed */
+    padding: 20px;
+    text-align: center; /* Center text within this section */
+    color: #333; /* Dark text color */
+    margin-top: 130px; /* Add margin to the top */
+    margin-bottom: 20px; /* Add margin to the bottom */
+  }
+  
+  #h1-cus {
+    font-size: 40px; /* Larger heading */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .para-h {
+    font-size: 18px;
+    line-height: 1.5; /* Increased line spacing for readability */
+    margin-bottom: 30px;
+  }
+  
+  #bookbut {
+    background-color: #f90; /* Orange button background */
+    color: #fff; /* White button text */
+    padding: 15px 25px; /* Increase button padding for better click feedback */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #bookbut:hover {
+    background-color: #d77700; /* Button hover color */
+  }
+  
+  .img-container {
+    flex: 1 1 auto; /* Equal width with #h-custom */
+    text-align: center; /* Center the image */
+  }
+  
+  .img-container img {
+    max-width: 100%; /* Make the image responsive */
+    border-radius: 5px; /* Add a subtle border radius to the image */
+  }
+  
